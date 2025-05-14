@@ -35,3 +35,17 @@ Plotly: For dynamic data visualizations (scatter plots, box plots, line charts).
 Pandas: For data manipulation and processing.
 
 Scipy: For Pearson correlation calculation.
+
+# Data Sources
+The data used in this U.S. Economic Dashboard project was sourced from the following major U.S. government agencies and databases, which were used to create the Project2Data.csv file for the app:
+
+- U.S. Bureau of Economic Analysis (BEA)
+The BEA provides data on U.S. economic accounts, including national income and product accounts (NIPA), GDP, personal income, and other economic indicators.
+
+- U.S. Federal Reserve Economic Data (FRED)
+Managed by the Federal Reserve Bank of St. Louis, FRED offers a wealth of economic data, including historical economic indicators such as inflation, interest rates, and employment statistics.
+
+- U.S. Bureau of Labor Statistics (BLS)
+The BLS provides data on U.S. labor market conditions, including unemployment rates, wage levels, and other related statistics.
+
+These sources are publicly available and regularly updated to reflect the latest economic data. The data from these agencies has been processed and integrated into a CSV file (Project2Data.csv) used for the dashboard's analysis and visualizations.
