@@ -40,26 +40,26 @@ The dataset serves as a valuable teaching tool for courses in economics, finance
 
 
 # Key Features
-Interactive Data Overview: Filter data by year and columns of interest. The data is presented in an interactive table.
+- Interactive Data Overview: Filter data by year and columns of interest. The data is presented in an interactive table.
 
-Charts and Visualizations: Create scatter plots, box plots, and bar charts with customized variables on the X and Y axes.
+- Charts and Visualizations: Create scatter plots, box plots, and bar charts with customized variables on the X and Y axes.
 
-Recession and Event Overlays: Visualize recessions and major historical events (e.g., 9/11, the 2008 financial crisis, COVID-19) on charts for added context.
+- Recession and Event Overlays: Visualize recessions and major historical events (e.g., 9/11, the 2008 financial crisis, COVID-19) on charts for added context.
 
-Correlation Analysis: Calculate and display Pearson correlation coefficients between selected variables, highlighting relationships between economic indicators.
+- Correlation Analysis: Calculate and display Pearson correlation coefficients between selected variables, highlighting relationships between economic indicators.
 
-Customizable Sliders and Filters: Use range sliders to filter data based on years and value thresholds.
+- Customizable Sliders and Filters: Use range sliders to filter data based on years and value thresholds.
 
 # Technologies Used
-Dash: Framework for building interactive web applications.
+- Dash: Framework for building interactive web applications.
 
-Dash Bootstrap Components: For responsive UI design.
+- Dash Bootstrap Components: For responsive UI design.
 
-Plotly: For dynamic data visualizations (scatter plots, box plots, line charts).
+- Plotly: For dynamic data visualizations (scatter plots, box plots, line charts).
 
-Pandas: For data manipulation and processing.
+- Pandas: For data manipulation and processing.
 
-Scipy: For Pearson correlation calculation.
+- Scipy: For Pearson correlation calculation.
 
 # Data Sources
 The data used in this U.S. Economic Dashboard project was sourced from the following major U.S. government agencies and databases, which were used to create the Project2Data.csv file for the app:
