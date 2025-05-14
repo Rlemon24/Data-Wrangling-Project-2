@@ -1,32 +1,31 @@
 # Data-Wrangling-Project-2
 # United States Economic Dashboard
 
-U.S. Economic Dashboard
-Overview
-The U.S. Economic Dashboard is an interactive web application developed using Dash. It enables users to explore various economic indicators and trends, with dynamic visualizations to provide insights into areas such as economic growth, government spending, wages & income, and interest rates. The dashboard also includes features like recession overlays, custom index creation, event markers, and downloadable reports.
+##Overview
+The U.S. Economic Dashboard is an interactive web application designed to visualize and analyze various U.S. economic indicators. Built with Dash, the application enables users to explore economic trends in real time, with interactive charts and filters that focus on key economic areas such as:
 
-Features
-Data Overview: Filter economic data by year and select columns for analysis. The data is presented in an interactive table with options to filter values.
+Economic Growth: Gross Domestic Product (GDP), industrial production, and real disposable income.
 
-Charts: Interactive charts with dynamic X and Y-axis selections, including scatter plots, box plots, and bar charts over time. Recession periods and key events (e.g., 9/11, the 2008 financial crisis) are overlaid on the charts for better context.
+Government Spending: Federal government debt, expenditures, and social programs.
 
-Economic Growth: Visualize multiple economic growth indicators, such as GDP, industrial production, and real disposable personal income.
+Wages & Income: Trends in median household income, weekly earnings, and personal savings rate.
 
-Government Spending: Analyze spending and debt indicators, such as federal government debt and total expenditures.
+Interest Rates & Inflation: Federal Funds Rate, Treasury Yields, and inflation rates.
 
-Wages & Income: Explore trends in wages and income, including median household income, federal minimum wage, and personal savings rates.
+Users can interact with the data using dynamic range sliders, dropdown filters, and various visualization types, including scatter plots, box plots, and bar charts.
 
-Interest & Inflation: Visualize interest rate trends, including the Federal Funds Rate, Treasury yields, and inflation rates.
+Key Features
+Interactive Data Overview: Filter data by year and columns of interest. The data is presented in an interactive table.
 
-Recession Overlays: Key recession periods are overlaid on all relevant charts to provide context.
+Charts and Visualizations: Create scatter plots, box plots, and bar charts with customized variables on the X and Y axes.
 
-Event Markers: Major economic events (like 9/11, the financial crisis, and the COVID-19 pandemic) are annotated on charts for contextual analysis.
+Recession and Event Overlays: Visualize recessions and major historical events (e.g., 9/11, the 2008 financial crisis, COVID-19) on charts for added context.
 
-Dynamic Filtering: Use range sliders and dropdowns to filter data based on years, columns, and approximate values.
+Correlation Analysis: Calculate and display Pearson correlation coefficients between selected variables, highlighting relationships between economic indicators.
 
-Correlation Analysis: The application calculates and displays Pearson correlation between selected variables, indicating significant relationships.
+Customizable Sliders and Filters: Use range sliders to filter data based on years and value thresholds.
 
-Technologies Used
+##Technologies Used
 Dash: Framework for building interactive web applications.
 
 Dash Bootstrap Components: For responsive UI design.
