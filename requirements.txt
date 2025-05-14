@@ -3,4 +3,4 @@ dash-bootstrap-components
 plotly
 pandas
 dash-cytoscape
-scippy
+scipy
