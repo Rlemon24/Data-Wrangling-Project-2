@@ -1,7 +1,7 @@
 # Data-Wrangling-Project-2
 # United States Economic Dashboard
 
-#Overview
+# Overview
 The U.S. Economic Dashboard is an interactive web application designed to visualize and analyze various U.S. economic indicators. Built with Dash, the application enables users to explore economic trends in real time, with interactive charts and filters that focus on key economic areas such as:
 
 Economic Growth: Gross Domestic Product (GDP), industrial production, and real disposable income.
@@ -14,7 +14,7 @@ Interest Rates & Inflation: Federal Funds Rate, Treasury Yields, and inflation r
 
 Users can interact with the data using dynamic range sliders, dropdown filters, and various visualization types, including scatter plots, box plots, and bar charts.
 
-#Key Features
+# Key Features
 Interactive Data Overview: Filter data by year and columns of interest. The data is presented in an interactive table.
 
 Charts and Visualizations: Create scatter plots, box plots, and bar charts with customized variables on the X and Y axes.
@@ -25,7 +25,7 @@ Correlation Analysis: Calculate and display Pearson correlation coefficients bet
 
 Customizable Sliders and Filters: Use range sliders to filter data based on years and value thresholds.
 
-#Technologies Used
+# Technologies Used
 Dash: Framework for building interactive web applications.
 
 Dash Bootstrap Components: For responsive UI design.
