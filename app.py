@@ -38,7 +38,7 @@ events = [
 ]
 
 # Initialize Dash app
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SLATE])
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SLATE],suppress_callback_exceptions=True)
 server = app.server
 
 # Helper to add overlays
