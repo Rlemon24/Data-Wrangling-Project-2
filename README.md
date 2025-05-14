@@ -23,19 +23,19 @@ The dataset (Project2Data.csv) used in this dashboard aggregates key macroeconom
 The data spans over a century (from 1913 onward, depending on variable availability), and each data point is time-stamped monthly, presented in YYYY-MM format for consistency and clarity.
 
 # Who Would Be Interested?
-- Economists & Researchers
+- Economists & Researchers: 
 Interested in the raw data for modeling macroeconomic relationships, testing economic theories, or conducting historical trend analysis over long periods.
 
-- Policy Makers & Government Agencies
-Use the data to inform decisions on fiscal policy, taxation, and public spending. Historical patterns in debt, income, and inflation can guide the development of economic policies.
+- Policy Makers & Government Agencies:
+  Use the data to inform decisions on fiscal policy, taxation, and public spending. Historical patterns in debt, income, and inflation can guide the development of economic policies.
 
-- Financial Analysts & Investors
+- Financial Analysts & Investors:
 Analyze interest rate movements, inflation trends, and GDP growth to forecast market behavior and adjust investment strategies accordingly.
 
-- Journalists & Public Policy Advocates
+- Journalists & Public Policy Advocates:
 Rely on this data to fact-check economic claims, communicate economic trends to the public, and evaluate the impact of government policies on real economic conditions.
 
-- Educators & Students
+- Educators & Students:
 The dataset serves as a valuable teaching tool for courses in economics, finance, and public policy, allowing for hands-on data exploration and analysis.
 
 
