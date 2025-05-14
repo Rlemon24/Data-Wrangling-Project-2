@@ -21,11 +21,12 @@ import plotly.express as px
 # Load and process data
 df = pd.read_csv('Project2Data.csv')
 df['Date'] = pd.to_datetime(df['Date'])
-df['Year'] = df['Date'].dt.year
+df['Year'] = df['Date'].dt.year  
+df['Date'] = df['Date'].dt.strftime('%Y-%m') 
 df = df.dropna(how='all')
 numeric_cols = df.select_dtypes(include='number').columns
 
-# Define recession periods and event markers
+# recession periods and event markers
 recessions = [
     {'start': '2001-03-01', 'end': '2001-11-01'},
     {'start': '2007-12-01', 'end': '2009-06-01'},
@@ -244,7 +245,7 @@ def update_table(year_range, selected_columns, filter_value):
         try:
             filter_float = float(filter_value)
 
-            # Only apply numeric filtering to the first selected column that is numeric and not Date/Year
+           
             target_col = next(
                 (col for col in selected_columns
                  if col in dff.columns and
@@ -264,7 +265,7 @@ def update_table(year_range, selected_columns, filter_value):
                 dff = dff.sort_values('__diff__').drop(columns='__diff__')
 
         except ValueError:
-            # Non-numeric filter: do substring match
+            
             dff = dff[dff.astype(str).apply(
                 lambda x: x.str.contains(filter_value, case=False, na=False)
             ).any(axis=1)]
