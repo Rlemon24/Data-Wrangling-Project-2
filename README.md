@@ -2,17 +2,42 @@
 # United States Economic Dashboard
 
 # Overview
-The U.S. Economic Dashboard is an interactive web application designed to visualize and analyze various U.S. economic indicators. Built with Dash, the application enables users to explore economic trends in real time, with interactive charts and filters that focus on key economic areas such as:
+The U.S. Economic Dashboard is an interactive web application designed to visualize and analyze various U.S. economic indicators. Built with Dash, the application enables users to explore economic trends in real time, with interactive charts and filters that focus on key economic areas.
 
-Economic Growth: Gross Domestic Product (GDP), industrial production, and real disposable income.
+# Data Description & Intended Audience
+What the Data Includes
+The dataset (Project2Data.csv) used in this dashboard aggregates key macroeconomic indicators from reliable U.S. government sources (BEA, FRED, and BLS). It includes data such as:
 
-Government Spending: Federal government debt, expenditures, and social programs.
+- Gross Domestic Product (GDP)
 
-Wages & Income: Trends in median household income, weekly earnings, and personal savings rate.
+- Federal Government Debt and Expenditures
 
-Interest Rates & Inflation: Federal Funds Rate, Treasury Yields, and inflation rates.
+- Inflation and Interest Rates (e.g., Treasury yields, Federal Funds Rate)
 
-Users can interact with the data using dynamic range sliders, dropdown filters, and various visualization types, including scatter plots, box plots, and bar charts.
+- Wages & Income (e.g., median income, minimum wage)
+
+- Industrial Production and Productivity
+
+- Personal Savings Rate
+
+The data spans over a century (from 1913 onward, depending on variable availability), and each data point is time-stamped monthly, presented in YYYY-MM format for consistency and clarity.
+
+# Who Would Be Interested?
+- Economists & Researchers
+Interested in the raw data for modeling macroeconomic relationships, testing economic theories, or conducting historical trend analysis over long periods.
+
+- Policy Makers & Government Agencies
+Use the data to inform decisions on fiscal policy, taxation, and public spending. Historical patterns in debt, income, and inflation can guide the development of economic policies.
+
+- Financial Analysts & Investors
+Analyze interest rate movements, inflation trends, and GDP growth to forecast market behavior and adjust investment strategies accordingly.
+
+- Journalists & Public Policy Advocates
+Rely on this data to fact-check economic claims, communicate economic trends to the public, and evaluate the impact of government policies on real economic conditions.
+
+- Educators & Students
+The dataset serves as a valuable teaching tool for courses in economics, finance, and public policy, allowing for hands-on data exploration and analysis.
+
 
 # Key Features
 Interactive Data Overview: Filter data by year and columns of interest. The data is presented in an interactive table.
